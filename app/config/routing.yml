@@ -1,0 +1,32 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+
+places:
+    type:     rest
+    resource: AppBundle\Controller\PlaceController
+
+
+ 
+users:
+    type:     rest
+    resource: AppBundle\Controller\UserController   
+
+
+
+prices:
+    type:     rest
+    resource: AppBundle\Controller\PriceController
+
+
+
+
+themes:
+    type:     rest
+    resource: AppBundle\Controller\ThemeController
+
+
+preferences:
+    type:     rest
+    resource: AppBundle\Controller\PreferenceController    
